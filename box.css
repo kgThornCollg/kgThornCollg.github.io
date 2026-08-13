@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+h1 {
+    font-family: 'Chelsea Market', 'Verdana', 'Arial', sans-serif;
+    font-size: 3em;
+}
+h2 {
+    font-family: 'Lucida Console', 'Courier New', serif;
+    font-size: 2em;
+    font-style: italic;
+    border-bottom: 2px solid blue;
+    border-radius: 50px;
+}
+
+.box {
+    border: 5px solid;
+    border-color: chartreuse;
+    border-radius: 25px;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#box1 {
+    background-color: darkred;
+}
+
+#box1:hover {
+    background-color: red;
+}
+
+#box2 {
+    background-color: darkblue;
+    
+}
+
+#box2:hover {
+    background-color: blue;
+}

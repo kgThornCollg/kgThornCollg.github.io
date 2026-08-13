@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- HTML 5 ^^ -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>My first website</title>
+    <link rel="icon" href="images/favicon.png" />
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        button:hover {
+            background-color: darkblue;
+            color: white;
+            font-size: 1.1em;
+        }
+
+        button:active {
+            background-color: red;
+            color: white;
+            font-size: 0.9em;
+        }
+
+
+        h1 {
+            color: white;
+        }
+
+        a:link {
+            color: yellowgreen;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            color: mediumpurple;
+            font-size: 1.1em;
+        }
+
+        a:active {
+            color: indianred;
+            font-size: 1em;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <a href="important/index.html" title="home page">
+        <h5>Back to Nexus</h5>
+    </a>
+
+    <h3> Click on the Button</h3>
+    <hr />
+
+
+    <button onclick="doSomething()"> Click Me</button>
+
+    <p id="spell"> Triumphant Gale </p>
+
+    <script>
+            
+         function doSomething() {
+            document.getElementById("spell").innerHTML = "You casted the spell!";
+         }
+
+    </script>
+
+</body>
+</html>

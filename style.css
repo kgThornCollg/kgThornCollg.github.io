@@ -1,0 +1,238 @@
+body {
+    background-color: blue;
+    color: white;
+}
+
+
+h1 {
+    font-family: 'Chelsea Market', 'Verdana', 'Arial', sans-serif;
+    font-size: 3em;
+}
+
+
+h2 {
+    font-family: 'Lucida Console', 'Courier New', serif;
+    font-size: 2em;
+    font-style: italic;
+    border-bottom: 2px solid blue;
+    border-radius: 50px;
+}
+
+a {
+    margin: 10px;
+}
+a:visited {
+    color: lime;
+}
+.borderless {
+    border: none;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+#windfortress {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: saddlebrown;
+    border-color: wheat;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#scorchstation {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: darkmagenta;
+    border-width: 3px;
+    border-color: darkslategrey;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#bloodways {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: darkred;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+#mrsc {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: darkslategrey;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#matrioshka {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: palegreen;
+    border-style: double;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.dark {
+    color: wheat;
+    border-bottom: 2px solid white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), 0 -4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bright {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5), -2px -2px 4px rgba(0, 255, 0, 0.5);
+    box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.5), 0 -4px 8px rgba(0, 255, 0, 0.5);
+}
+
+.title-page {
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+}
+
+.title-page .title-child
+{
+    padding: 10px;
+}
+
+.box {
+    background-color: aqua;
+    border: 8px solid;
+    padding: 25px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    border-color: white;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#aqua {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.pagination{
+    text-align: center;
+}
+
+.pagination a{
+    text-align: center;
+
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    color: white;
+    background-color: darkolivegreen;
+    font-weight: bold;
+    border-radius: 5px;
+}
+    
+.pagination a:hover:not(.active){
+    background-color: darkblue;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: darkblue;
+    color: aqua;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropdown:hover button{
+    background-color: blue;
+    color: white;
+}
+
+.dropdown a {
+    display: block;
+    background-color: navajowhite;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: blue;
+}
+.dropdown .dropdown-content {
+    background-color: navajowhite;
+    display: none;
+    position: absolute;
+    padding: 10px 15px;
+    min-width: 160px;
+    box-shadow: 4px 4px 8px 0px rgba(255,255,255,0.4);
+}
+
+.dropdown:hover .dropdown-content a:hover {
+    background-color: white;
+    color: blue;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: blue;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: darkblue;
+}
+
+.navbar li {
+    float: left;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+.bigone {
+    animation-name: slideDown;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%)
+    }
+}

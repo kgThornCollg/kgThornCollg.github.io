@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- HTML 5 ^^ -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>My first website</title>
+    <link rel="icon" href="images/favicon.png" />
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            color: white;
+        }
+
+            h1::first-letter {
+                color: greenyellow;
+                font-size: 1.9em;
+                font-style: italic;
+            }
+
+        li:not(:hover) {
+            color: white;
+            font-size: 1em;
+        }
+
+        li:nth-child(2n+1) {
+            color: yellow;
+        }
+
+        li:hover {
+            color: mediumpurple;
+            font-size: 1.1em;
+        }
+
+        #greeting p {
+            background-color: black;
+            display: none;
+            padding: 10px;
+        }
+
+        #greeting:hover p {
+            display: block;
+        }
+
+        p::first-line {
+            background-color: cornflowerblue;
+        }
+
+        p::selection {
+            color: indianred;
+            background-color: darkgreen;
+        }
+
+        #fruit li {
+            color: white;
+        }
+
+        #fruit li::before {
+            content: "🍎 ";
+        }
+
+        #apl::after {
+            content: "🍏";
+        }
+
+        #ban::after {
+            content: "🍌";
+        }
+
+        #ora::after {
+            content: "🍊";
+        }
+
+        #fruit li::marker {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lists</h1>
+    <br>
+
+    <div id="greeting">
+        More info
+        <p>This is a series of lists</p>
+
+    </div>
+
+    <a href="important/index.html" title="home page">
+        <h5>Back to Nexus</h5>
+    </a>
+
+    <p>These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have.These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. These are all the fruits I have. GO FUCK YOURSELF</p>
+    <ul id="fruit">
+
+        <li id="apl">
+            apple
+        </li>
+        <li id="ban">
+            banana
+        </li>
+        <li id="ora">
+            orange
+        </li>
+
+    </ul>
+    <br />
+    <ul>
+
+        <li>Milkshake</li>
+        <li>Cheetos</li>
+        <li>Milk</li>
+        <li>Water</li>
+        <li>Drugs</li>
+        <ul>
+            <li>Painkillers</li>
+            <li>Supplements</li>
+            <li>Nutrients</li>
+            <li>Sleeping Medication</li>
+            <li>-</li>
+        </ul>
+        <li>Not Alcohol</li>
+        <li>Not Anything That ////// Tells // To</li>
+        <li>Tomatoes</li>
+        <li>Bread</li>
+        <li>Eggs</li>
+        <li>Butter</li>
+        <li>Cheese</li>
+        <li>Salt</li>
+    </ul>
+
+    <ol>
+        <li>Wake Up</li>
+        <li>Remove Self From Bed</li>
+        <li>Clean Self and Surroundings</li>
+        <li>////// the Last Step</li>
+        <li>Transport to Restroom</li>
+
+    </ol>
+
+    <h4>Description List</h4>
+    <dl style="background-color:teal; border:2px solid">
+        <dt>Brush Teeth</dt>
+        <dd>An activity often involving a toothbrush, toothpaste, water, and some volition to be //////// else than what /// are already.</dd>
+        <dt>Go To Balcony</dt>
+        <dt>//// You Were A Cloud</dt>
+        <dd></dd>
+        <dt>////</dt>
+    </dl>
+</body>
+</html>
